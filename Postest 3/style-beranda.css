@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(245,245,245);
+}
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+div{
+    display:block;
+}
+nav{
+    max-width: 100%;
+    position: fixed;
+    font-size: 17px;
+    display: flex;
+    background-color: red;
+    width: 100%;
+    z-index: 100
+}
+.side-img{
+    max-width: 100%;
+    padding: 8px 0px 0px 50px;
+}
+.gambar{
+    float: right;
+    margin-left: 1090px;
+}
+a .gambar :hover{
+    color: white;
+}
+nav ul li{
+    display: flex;
+    float: left;
+    border-radius: 20px;
+    padding: 10px 5px 12px 10px;
+}
+nav ul li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+nav a:hover{
+    color: black;
+}
+.bg{
+    top: 77px;
+    position: relative;
+}
+#Konten{
+    text-align: center;
+    padding: 140px 140px 140px 140px;
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
+.Beranda{
+    border-radius: 12px;
+    padding: 25px 120px;
+    background-color: white;
+    box-shadow: 0 1px 13px rgb(0 0 0 / 20%);
+    margin-bottom: 5.5%;
+}
+.judul{
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+}
+.tengah{
+    display: block;
+    font-size: 40px;
+    padding-top: 30px;
+    text-align: center;
+}
+.kiri{
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+}
+.kirii{
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+}
+.kiri img{
+    padding-left: 81px;
+}
+.kanan{
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+}
+.kanan img{
+    padding-right: 81px;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+footer{
+    background-color: red;
+}
+footer .foot{
+    color:white;
+    padding: 25px 0px 25px 80px;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-form.css">
+    <link rel="icon" href="Bigreds-removebg-preview.png">
+    <title>Form</title>
+</head>
+<body>
+    <nav>
+        <a href="beranda.html" class="side-img">
+        <img src="LOGO-IOLSC-1.svg" width="100px">
+        <ul>
+            <li>
+                <a href="tentang.html">Tentang</a>
+            </li>
+            <li>
+                <a href="form.html">Form</a>
+            </li>
+            <li>
+                <a href="profil.html">Profil</a>
+            </li>
+            <li>
+                <a class="keluar" href="login.html"><img class="gambar" src="logout.png" width="30px"></a>
+            </li>
+        </ul>
+        </a>
+    </nav>
+    <div id="form">
+        <div class="konten">
+            <h1>Form Pendaftaran</h1>
+            <div class="isi">
+                <form>
+                    <div class="detail">
+                        <div class="kotak">
+                    Nama 
+                    <input type="text" placeholder="Masukkan Nama">
+                        </div>
+                        <div class="kotak">
+                    Password  
+                    <input type="password" placeholder="Masukkan Password">
+                        </div>
+                        <div class="kotak">
+                    Email
+                    <input type="email" name="email" placeholder="Masukkan Email">
+                        </div>
+                        <div class="kotak">
+                    Gender
+                    <select>
+                        <option></option>
+                        <option>Laki-laki</option>
+                        <option>Perempuan</option>
+                    </select>
+                        </div>
+                        <div class="kotak">
+                    Agama
+                    <select>
+                        <option></option>
+                        <option>Islam</option>
+                        <option>Kristen</option>
+                        <option>Katolik</option>
+                        <option>Buddha</option>
+                        <option>Hindu</option>
+                        <option>Konghucu</option>
+                    </select>
+                        </div>
+                        <div class="kotak2">
+                    Pemain Favorit
+                    <br>
+                    <input type="checkbox" id="Mo Salah"> 
+                    <label for="Mo Salah">Mo Salah</label>
+                    <br>
+                    <input type="checkbox" id="Van Dijk"> 
+                    <label for="Van Dijk">Van Dijk</label> 
+                    <br>
+                    <input type="checkbox" id="Thiago"> 
+                    <label for="Thiago">Thiago</label>
+                        </div>
+                        <div class="kotak">
+                    Alasan Memilih Pemain Tersebut?
+                    <br>
+                    <textarea class="textarea" rows="5" cols="40" placeholder="Masukkan teks di sini"></textarea>
+                        </div>
+                        <div class="kotak2">
+                    Tambah Foto
+                    <br>
+                    <br>
+                    <input type="file" name="gambar" required>
+                    <br>
+                    <br>   
+                    Apakah anda yakin untuk mengikuti aturan yang ada di Bigreds Samarinda?
+                    <br>
+                    <br>
+                    <input type="radio" name="Angkatan">Ya
+                    <input type="radio" name="Angkatan">Tidak
+                        </div>
+                        <div id="submit"><a href="#popup">Submit</a></div>
+                        <div id="popup">
+                            <div class="window">
+                            <a href="#" class="close" title="Close">X</a>
+                            <h2>Terima Kasih Form Telah Terisi</h2>
+                            </div>
+                        </div>
+                </div>
+                </form>
+            </div> 
+        </div>
+        
+    </div>
+    <footer>
+        <hr>
+        <div class="foot">
+            <img src="BR-IOLSC.png" width="150px">
+            <p> Hak Cipta © 2023 - Romy Hakim Wardana</p>
+        </div>
+    </footer>
+</body>
+</html>
